@@ -12,8 +12,8 @@ const createStoreWithMiddleware = applyMiddleware(
 const reduxStore = createStoreWithMiddleware(reducer)
 const store = new Revue(Vue, reduxStore, actions)
 
-if (typeof __DEV__ !== 'undefined' && __DEV__) {
-	window.store = store
+if (__DEV__) {
+  global.store = store
 }
 
 export default store

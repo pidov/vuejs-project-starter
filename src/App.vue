@@ -28,9 +28,7 @@
   export default {
     name: 'app'
   }
-
 </script>
 <style lang="sass-loader">
   @import "scss/app";
-
 </style>

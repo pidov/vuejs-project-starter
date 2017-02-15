@@ -8,13 +8,13 @@ import router from './router'
 
 Vue.use(VueRouter)
 
-if (__DEV__) {
-  window.Vue = Vue
-}
-
 new Vue({
   el: '#app',
   router,
   template: '<App />',
   components: { App }
 })
+
+if (__DEV__) {
+  global.Vue = Vue
+}
