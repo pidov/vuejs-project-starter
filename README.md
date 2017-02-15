@@ -1,6 +1,6 @@
-# excelpad-demo
+# Vue project
 
-> ExcelPad demo
+> Rapid prototyping project starter based on vueo
 
 ## Build Setup
 
@@ -28,3 +28,5 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+Other libraries used in this project include Bulma (CSS Framework), fontawesome (icon font), Redux (state container), Revue (Redux binding for Vue)
