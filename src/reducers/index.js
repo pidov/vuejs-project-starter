@@ -1,3 +1,5 @@
-export default function reducer () {
-  return {}
-}
+import { combineReducers } from 'redux'
+
+export default combineReducers({
+  reducer: (state = {}, action) => state
+})
